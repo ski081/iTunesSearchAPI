@@ -25,7 +25,7 @@ struct SearchResult: Decodable {
     /// The name of the album, TV season, audiobook, and so on.
     let collectionName: String?
     /// A URL for the artwork associated with the returned media type.
-    let artworkURL100: URL?
+    private let artworkURL100: URL?
 }
 
 extension SearchResult {
@@ -37,5 +37,20 @@ extension SearchResult {
         case artistName
         case collectionName
         case artworkURL100 = "artworkUrl100"
+    }
+}
+
+extension SearchResult {
+    func artworkURL(size dimension: Int = 100) -> URL? {
+        guard dimension > 0,
+            dimension != 100,
+            var url = self.artworkURL100 else {
+            return self.artworkURL100
+        }
+        
+        url.deleteLastPathComponent()
+        url.appendPathComponent("\(dimension)x\(dimension)bb.jpg")
+        
+        return url
     }
 }
