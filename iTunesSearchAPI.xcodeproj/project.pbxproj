@@ -15,6 +15,7 @@
 		9399A11B221B23AD00596238 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A11A221B23AC00596238 /* SearchResult.swift */; };
 		9399A11D221B246400596238 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A11C221B246400596238 /* SearchResponse.swift */; };
 		9399A11F221B249800596238 /* Explicitness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399A11E221B249800596238 /* Explicitness.swift */; };
+		9912A0EE221E48F0006CA38D /* AppleiTunesSearchURLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912A0ED221E48F0006CA38D /* AppleiTunesSearchURLComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9399A11A221B23AC00596238 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		9399A11C221B246400596238 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		9399A11E221B249800596238 /* Explicitness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explicitness.swift; sourceTree = "<group>"; };
+		9912A0ED221E48F0006CA38D /* AppleiTunesSearchURLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleiTunesSearchURLComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9399A10E221B239300596238 /* Assets.xcassets */,
 				9399A110221B239300596238 /* LaunchScreen.storyboard */,
 				9399A113221B239300596238 /* Info.plist */,
+				9912A0ED221E48F0006CA38D /* AppleiTunesSearchURLComponents.swift */,
 			);
 			path = iTunesSearchAPI;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				9399A11D221B246400596238 /* SearchResponse.swift in Sources */,
 				9399A10A221B239200596238 /* ViewController.swift in Sources */,
+				9912A0EE221E48F0006CA38D /* AppleiTunesSearchURLComponents.swift in Sources */,
 				9399A11B221B23AD00596238 /* SearchResult.swift in Sources */,
 				9399A108221B239200596238 /* AppDelegate.swift in Sources */,
 				9399A11F221B249800596238 /* Explicitness.swift in Sources */,
